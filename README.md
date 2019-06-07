@@ -1,2 +1,2 @@
-# gpu-stereo-dso
-CUDA Optimized Stereo DSO
+# gpu-dvo
+CUDA Optimized DVO
