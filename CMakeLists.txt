@@ -42,10 +42,6 @@ find_package(PkgConfig REQUIRED)
 pkg_search_module(GLFW REQUIRED glfw3)
 include_directories(${GLFW_INCLUDE_DIRS})
 
-# Opencv (Just for calculateStereoRectifyMap)
-find_package(OpenCV 3.2 REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS})
-
 # imgui
 include_directories(thirdparty/imgui)
 set(IMGUI_SOURCE_FILES
